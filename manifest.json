@@ -12,8 +12,7 @@
 		"128": "public/meat-128.png"
 	},
 	"permissions": [
-		"activeTab",
-		"<all_urls>"
+		"tabs"
 	],
 	"background": {
 		"service_worker": "src/main.ts"
