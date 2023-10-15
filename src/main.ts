@@ -53,7 +53,6 @@ chrome.tabs.onActivated.addListener((activeInfo) => {
 });
 
 chrome.action.onClicked.addListener((tab) => {
-	console.log(tab);
 	fetch("https://webcache.googleusercontent.com/search?q=cache:" + tab.url, {
 		headers: {
 			accept: "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
