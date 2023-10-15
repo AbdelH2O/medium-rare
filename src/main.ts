@@ -31,10 +31,10 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
 		// })
 		chrome.action.setIcon({
 			path: {
-				"16": "icons/fire-16.png",
-				"32": "icons/fire-32.png",
-				"48": "icons/fire-48.png",
-				"128": "icons/fire-128.png"
+				"16": "public/fire-16.png",
+				"32": "public/fire-32.png",
+				"48": "public/fire-48.png",
+				"128": "public/fire-128.png"
 			},
 			tabId: tabId
 		})
@@ -51,10 +51,10 @@ chrome.tabs.onActivated.addListener((activeInfo) => {
 			if(tab.url?.includes("medium.com")) {
 				chrome.action.setIcon({
 					path: {
-						"16": "icons/fire-16.png",
-						"32": "icons/fire-32.png",
-						"48": "icons/fire-48.png",
-						"128": "icons/fire-128.png"
+						"16": "public/fire-16.png",
+						"32": "public/fire-32.png",
+						"48": "public/fire-48.png",
+						"128": "public/fire-128.png"
 					},
 					tabId: activeInfo.tabId
 				})
