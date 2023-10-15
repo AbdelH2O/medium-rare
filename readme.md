@@ -44,6 +44,10 @@ We are continuously working to improve the Medium Rare extension. Here are some 
 - [ ] Compatibility with more browsers.
 - [ ] Feedback and issue reporting functionality.
 
+## Legal Disclaimer
+
+**This extension is a proof of concept and was created for educational purposes only**. It is not intended for any illegal use or to encourage the violation of Medium's terms of service or any other applicable laws. The authors and maintainers of this extension do not condone or support any actions that may infringe upon the rights of content creators or publishers. Use this extension responsibly and in compliance with all relevant laws and regulations.
+
 ## Contribute
 
 If you would like to contribute to the development of the Medium Rare extension, feel free to fork the repository and submit a pull request. We welcome contributions from the community to make this extension even better.
