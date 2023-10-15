@@ -13,5 +13,8 @@
     "chrome-types": "^0.1.231",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0-rc.12"
   }
 }

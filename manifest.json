@@ -12,7 +12,8 @@
 		"128": "public/meat-128.png"
 	},
 	"permissions": [
-		"tabs"
+		"tabs",
+		"scripting"
 	],
 	"background": {
 		"service_worker": "src/main.ts"
@@ -20,12 +21,15 @@
 	"content_scripts": [
 		{
 			"js": [
-				"scripts/content.js"
+				"src/content.ts"
 			],
 			"matches": [
-				"https://developer.chrome.com/docs/extensions/*",
-				"https://developer.chrome.com/docs/webstore/*"
+				"https://*.medium.com/*",
+				"https://medium.com/*"
 			]
 		}
+	],
+	"host_permissions": [
+		"https://webcache.googleusercontent.com/*"
 	]
 }
