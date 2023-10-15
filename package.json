@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "@crxjs/vite-plugin": "2.0.0-beta.19",
+    "chrome-types": "^0.1.231",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
   }

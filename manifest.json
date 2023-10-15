@@ -3,6 +3,19 @@
 	"name": "Medium Rare",
 	"version": "1.0.0",
 	"action": {
-		"default_popup": "index.html"
+		"default_title": "Click to unlock Medium"
+	},
+	"icons": {
+		"16": "public/meat-16.png",
+		"32": "public/meat-32.png",
+		"48": "public/meat-48.png",
+		"128": "public/meat-128.png"
+	},
+	"permissions": [
+		"activeTab",
+		"<all_urls>"
+	],
+	"background": {
+		"service_worker": "src/main.ts"
 	}
 }

@@ -8,6 +8,9 @@ devDependencies:
   '@crxjs/vite-plugin':
     specifier: 2.0.0-beta.19
     version: 2.0.0-beta.19
+  chrome-types:
+    specifier: ^0.1.231
+    version: 0.1.231
   typescript:
     specifier: ^5.0.2
     version: 5.2.2
@@ -309,6 +312,10 @@ packages:
       htmlparser2: 8.0.2
       parse5: 7.1.2
       parse5-htmlparser2-tree-adapter: 7.0.0
+    dev: true
+
+  /chrome-types@0.1.231:
+    resolution: {integrity: sha512-h3bavs+tROAeGE2pLJckJNQzFU5HN2yYEKEG+2byq1+MWrycBYxklCl6gRaI3Jjeyn1DzTTrFToOvdRCQfc/kg==}
     dev: true
 
   /connect-injector@0.4.4:
