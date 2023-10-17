@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
 	"name": "Medium Rare",
-	"version": "1.0.0",
+	"version": "0.0.1",
 	"action": {
 		"default_title": "Click to unlock Medium"
 	},
@@ -11,16 +11,17 @@
 		"48": "public/meat-48.png",
 		"128": "public/meat-128.png"
 	},
+	"description": "Unlock Medium articles for free!",
 	"permissions": [
 		"tabs"
 	],
 	"background": {
-		"service_worker": "src/main.ts"
+		"service_worker": "src/main"
 	},
 	"content_scripts": [
 		{
 			"js": [
-				"src/content.ts"
+				"src/content"
 			],
 			"matches": [
 				"https://*.medium.com/*",
